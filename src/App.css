@@ -1,0 +1,43 @@
+.surahItem {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.surahItem:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+body {
+  background-color: #f9f9f9;
+}
+.PageContainer {
+  font-family: p6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.surahContainer {
+  font-size: 2.4rem;
+  margin: 20px 0;
+  border: 5px solid #ddd;
+  width: fit-content;
+  padding: 10px;
+}
+/* .verse {
+  display: inline-block;
+} */
+.lineContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  /* display: inline; */
+}
+
+.line {
+  display: inline-block;
+}
+@font-face {
+  font-family: p6;
+  src: url("../src/fonts/p6.woff2") format("woff2");
+  /* url("/fonts/OpenSans-Regular-webfont.woff") format("woff"); */
+}
