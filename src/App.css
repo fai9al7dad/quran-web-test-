@@ -30,6 +30,8 @@ body {
 .lineContainer {
   /* display: flex;
   flex-direction: row-reverse; */
+  /* border: 1px solid black; */
+  margin-bottom: 5px;
   direction: rtl;
   text-align: center;
   /* display: inline; */
@@ -40,10 +42,14 @@ body {
 }
 .surahname {
   font-family: surahname;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 @font-face {
   font-family: p6;
-  src: url("../src/fonts/p7.woff2") format("woff2");
+  src: url("../src/fonts/p6.ttf") format("woff2");
   /* url("/fonts/OpenSans-Regular-webfont.woff") format("woff"); */
 }
 @font-face {
